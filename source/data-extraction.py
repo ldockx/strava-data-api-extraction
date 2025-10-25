@@ -119,7 +119,7 @@ def get_coordinates_of_activities(access_token, activities):
         return pd.DataFrame()
 
 def write_data_to_csv(df, filename):
-    folder_path = 'data'
+    folder_path = 'data/raw data'
     os.makedirs(folder_path, exist_ok=True)
     file_path = os.path.join(folder_path, filename)
     df.to_csv(file_path, index=False)
