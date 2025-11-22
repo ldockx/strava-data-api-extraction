@@ -1,13 +1,35 @@
-# My Marathon Journey & Strava Data Analysis
+# 🏃‍♂️ Bruges Marathon Data Exploration
 
-Since the COVID-19 pandemic, healthy lifestyles have become increasingly popular in my age group. Strava, for many, has evolved more into a social media platform for showcasing achievements than a tool for tracking progress. (Well, maybe that was Strava's plan all along—well played, Strava.)
+A while ago I ran my very first marathon — the Bruges Marathon. Beautiful city, amazing vibe… and a very solid encounter with “the wall.”
+The first half felt great, the second half… well, let’s just say gravity won.
 
-I, too, followed this trend. I started running a lot during lockdowns—not just to get fitter, but also to pass the time. Over time, however, I began to feel a sense of dissatisfaction. Sure, I could run, but for what purpose? What was my real goal?
+This repo is my way of figuring out why.
 
-Last year, I decided to take on a challenge: running a marathon. And last month, I did it—completing the Bruges Marathon, something that seemed impossible five years ago (especially considering I was probably the least sporty person you’d meet). It wasn’t easy. I didn’t hit my goal of finishing under four hours, and the second half was the toughest battle I’ve ever faced—but I did it.
+## 🎯 What this repo is about
 
-As a data enthusiast, I naturally became curious about the numbers behind my performance. Using my Garmin sports watch, which automatically syncs with Strava, I was able to extract my running data through the Strava API for analysis.
+Using the Strava API, I pulled all available data from my marathon activity:
 
-The goal of this project is to explore that data through interesting visualizations and insights. I’ve also framed it as a story, because in my humble opinion, the greatest skill of a data scientist is turning raw data into narratives people can understand and enjoy.
+Event data (pace, distance, heart rate, etc.)
 
-So buckle up—let’s take a run through my marathon journey, data-style.
+Stream data (the juicy, point-by-point stuff)
+
+With that, I did a small analysis to understand how the race unfolded and where things went sideways. I also generated an HTML map of the full route, which makes the whole thing feel a bit more real.
+
+## 🛠️ Why I built it
+
+Besides wanting to understand my own race, this project is also the foundation for my next one:
+a marathon time predictor.
+
+To build that model, I needed clean, structured running data — and who better to start with than myself?
+
+## 📦 What you’ll find here
+
+Scripts to fetch data from the Strava API
+
+Preprocessed marathon data
+
+A simple analysis of the run
+
+An interactive route map
+
+A small step in the direction of future PRs 
